@@ -54,6 +54,9 @@ dependencies {
 
   // session
   implementation('org.springframework.session:spring-session-jdbc')
+
+  // Validation 관련 의존성 추가
+  implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 
